@@ -1,0 +1,9 @@
+[
+  {
+    "type": "LivreNumerique",
+    "titre": "Python pour les nuls",
+    "auteur": "Jean Dupont",
+    "isbn": "987654",
+    "taille_fichier": 5
+  }
+]
