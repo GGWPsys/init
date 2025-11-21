@@ -1,0 +1,14 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+
+addopts = "-v --maxfail=1"
+
+filterwarnings = [
+    "ignore::DeprecationWarning",
+]
+
+tmp_path_retention_policy = "failed"
+tmp_path_retention_count = 3
